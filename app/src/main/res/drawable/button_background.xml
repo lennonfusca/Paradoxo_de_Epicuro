@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <!-- Sombra para efeito 3D -->
+        <item android:bottom="4dp">
+            <shape android:shape="rectangle">
+                <solid android:color="#2E2E2E" /> <!-- Cor da sombra -->
+                <corners android:radius="0dp" /> <!-- Cantos quadrados -->
+            </shape>
+        </item>
+
+        <!-- Cor principal do botão -->
+        <item>
+            <shape android:shape="rectangle">
+                <solid android:color="#535252" /> <!-- Cor do botão -->
+                <corners android:radius="0dp" /> <!-- Cantos quadrados -->
+            </shape>
+        </item>
+    </layer-list>

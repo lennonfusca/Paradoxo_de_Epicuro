@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/branco2"
+    tools:context=".epicuro.pagina2">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="271dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="16dp"
+        android:autoLink="web"
+        android:lineSpacingExtra="5sp"
+        android:linksClickable="true"
+        android:text="Desenvolvido por Lennon Moreira"
+        android:textAlignment="textStart"
+        android:textColor="#3F51B5"
+        android:textColorLink="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="34dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="373dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/god" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="375dp"
+        android:layout_height="233dp"
+        android:layout_marginTop="12dp"
+        android:contextClickable="false"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Um ser onibenevolente é aquele que é infinitamente ou perfeitamente bom, tendo uma bondade completa e incondicional. No contexto teológico, essa característica é frequentemente atribuída a Deus, sugerindo que Deus é o ser mais compassivo e amoroso possível. Onibenevolência implica que o ser deseja sempre o bem e atua em prol do bem de todos os seres. Não há maldade, crueldade ou egoísmo em suas intenções ou ações. Esse ser teria uma inclinação natural para fazer o bem e promover a felicidade e o bem-estar dos outros, sem qualquer tipo de parcialidade ou discriminação."
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button21" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="374dp"
+        android:layout_height="221dp"
+        android:layout_marginTop="12dp"
+        android:contextClickable="false"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Um ser onisciente é aquele que possui conhecimento completo e absoluto de todas as coisas. Isso significa que um ser onisciente sabe tudo o que já aconteceu, tudo o que está acontecendo no presente e tudo o que acontecerá no futuro. Além disso, esse ser teria conhecimento de todos os pensamentos, emoções, intenções e possíveis ações de todos os seres conscientes. No caso de Deus, a onisciência implica que nada está escondido de seu conhecimento — Ele sabe tudo, desde as menores partículas subatômicas até os eventos cósmicos mais vastos, e conhece os segredos mais íntimos dos corações humanos. A onisciência inclui também o conhecimento de todos os universos possíveis e todas as realidades alternativas."
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button22" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="384dp"
+        android:layout_height="226dp"
+        android:layout_marginTop="16dp"
+        android:contextClickable="false"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="Um ser onipotente é aquele que possui poder absoluto e ilimitado. Onipotência significa que o ser tem a capacidade de fazer qualquer coisa que seja logicamente possível. No contexto da teologia, atribui-se a onipotência a Deus, significando que Ele tem o poder de criar, destruir, mudar, sustentar o universo e fazer qualquer coisa que deseje, sem limitação alguma. Um ser onipotente pode realizar milagres, transcender as leis da natureza e exercer domínio completo sobre todas as coisas e forças do universo. No entanto, a onipotência não implica que o ser pode fazer o logicamente impossível (como criar uma pedra tão pesada que Ele mesmo não possa levantar) porque tais paradoxos não são limitações de poder, mas sim inconsistências lógicas."
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button23" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="351dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="308dp"
+        android:text="Se Deus é Onibenevolente, Onisciente e Onipotente, então porque o mal existe?"
+        android:textAlignment="center"
+        android:textColor="#272B41"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="114dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#3F51B5"
+        android:text="Continuar"
+        android:textColorLink="#E6E7EF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="219dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="40dp"
+        android:background="#3F51B5"
+        android:backgroundTint="#3F51B5"
+        android:text="Deus é ..."
+        android:textAlignment="center"
+        android:textColor="#F2EEEE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#3F51B5"
+        android:text="Onibenevolente"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="113dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#3F51B5"
+        android:text="Onisciente"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="115dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#3F51B5"
+        android:text="Onipotente"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.976"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

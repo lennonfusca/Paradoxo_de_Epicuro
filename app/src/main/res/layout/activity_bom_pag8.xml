@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".epicuro.bomPag8">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/branco2"
+        tools:context=".epicuro.pagina4">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="277dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="48dp"
+            android:background="#3F51B5"
+            android:backgroundTint="#3F51B5"
+            android:text="Então ele não é Benevolente."
+            android:textAlignment="center"
+            android:textColor="#F4F1F1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="393dp"
+            android:layout_height="282dp"
+            android:layout_marginTop="80dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/epicuro400" />
+
+        <TextView
+            android:id="@+id/textView1311"
+            android:layout_width="368dp"
+            android:layout_height="128dp"
+            android:layout_marginTop="32dp"
+            android:text="Se concluirmos que Deus é onipotente e onisciente, mas ainda assim o mal persiste, então Epicuro sugere que Deus talvez não seja benevolente. Ou seja, apesar de ter o poder para acabar com o mal e o conhecimento de sua existência, Deus não deseja eliminá-lo."
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Sendo assim, Deus não é de todo bom."
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView1311" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
